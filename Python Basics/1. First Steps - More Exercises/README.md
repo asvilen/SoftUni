@@ -63,7 +63,7 @@ Write a program that reads degrees Celsius (°C) and converts them to degrees Fa
 ### Sample Input and Output
 | Input  | Output    |    | Input  | Output    |    | Input  | Output    |    | Input  | Output    |
 | ------ |:---------:| -- | ------ |:---------:| -- | ------ |:---------:| -- | ------ |:---------:|
-|   25   |   77.00   |    |   0    |   32.00   |    |   -5.5 |   22.10   |    |   32.3 |   90.14   |
+|   25   |  `77.00`  |    |   0    |  `32.00`  |    |   -5.5 |  `22.10`  |    |   32.3 |  `90.14`  |
 
 ### My Solution
 ```Python
@@ -86,3 +86,15 @@ A gardener was selling the harvest from his garden at the vegetable market. It s
 ##### Expected Output
 To print a single number on the console: the revenue from all fruits and vegetables in euros.
 Format the result to the second digit after the decimal point.
+
+### Sample Input and Output
+| Input  | Output    |
+| ------ |:---------:|
+| 0.194  |  `73.50`  |
+|  19.4  |           |
+|   10   |           |
+|   10   |           |
+|  1.5   |  `20.62`  |
+|  2.5   |           |
+|   10   |           |
+|   10   |           |
