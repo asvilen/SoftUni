@@ -55,3 +55,22 @@ area = a * h / 2
 
 print(f"{area:.2f}")
 ```
+
+## 3. Console converter: from degrees °C to degrees °F
+### Problem
+Write a program that reads degrees Celsius (°C) and converts them to degrees Fahrenheit (°F). Search the Internet for a suitable formula to do the calculations. Format the output to the second decimal place.
+
+### Sample Input and Output
+| Input  | Output    | | Input  | Output    | | Input  | Output    | | Input  | Output    | 
+| ------ |:---------:| | ------ |:---------:| | ------ |:---------:| | ------ |:---------:|
+|   25   |   77.00   | |   0    |   32.00   | |   -5.5 |   22.10   | |   32.3 |   90.14   |
+
+### My Solution
+```Python
+
+celcius = float(input())
+
+fahrenheit = (celcius * 9 / 5) + 32
+
+print(f"{fahrenheit:.2f}")
+```
