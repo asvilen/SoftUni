@@ -112,7 +112,7 @@ total_in_eur = (vegetables_income + fruits_income) / 1.94
 
 print(f"{total_in_eur:.2f}")
 ```
-## 5. Study hall
+## 5. Training lab
 ### Problem
 A classroom has a rectangular dimension w by h meters, without columns in its interior. The hall is divided into two parts - left and right, with a corridor approximately in the middle. There are rows of desks on the left and on the right. At the back of the hall is a large entrance door. In the front part of the hall there is a chair with a podium for the teacher. One workplace occupies 70 by 120 cm (table measuring 70 by 40 cm + space for a chair and passage measuring 70 by 80 cm). The corridor is at least 100 cm wide. It is estimated that exactly 1 job is lost because of the entrance door (which has a 160 cm opening) and because of the chair (which has a size of 160 by 120 cm) exactly 2 jobs are lost. Write a program that enters the dimensions of a classroom and calculates the number of workstations in it for the layout described (see figure).
 
