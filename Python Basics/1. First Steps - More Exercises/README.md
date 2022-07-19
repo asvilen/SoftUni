@@ -74,3 +74,15 @@ fahrenheit = (celcius * 9 / 5) + 32
 
 print(f"{fahrenheit:.2f}")
 ```
+## 4. Vegetable market
+### Problem
+A gardener was selling the harvest from his garden at the vegetable market. It sells vegetables for N leva per kilogram and fruits for M leva per kilogram. Write a program to calculate the income from the harvest in euros (assuming that one euro is equal to BGN 1.94).
+##### Console Input
+4 numbers are read from the console, one per line:
+• First row – Price per kilo of vegetables – real number[0.00… 1000.00]
+• Second line – Price per kilogram of fruit – real number[0.00… 1000.00]
+• Third row – Total kilograms of vegetables – integer[0… 1000]
+• Fourth line – Total kilograms of fruit – integer[0… 1000]
+##### Expected Output
+To print a single number on the console: the revenue from all fruits and vegetables in euros.
+Format the result to the second digit after the decimal point.
