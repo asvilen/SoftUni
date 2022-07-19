@@ -62,7 +62,7 @@ Write a program that reads degrees Celsius (°C) and converts them to degrees Fa
 
 ### Sample Input and Output
 | Input  | Output    |    | Input  | Output    | Input  | Output    | Input  | Output    |
-| ------ |:---------:|    | ------ |:---------:| ------ |:---------:| ------ |:---------:|
+| ------ |:---------:| -- | ------ |:---------:| ------ |:---------:| ------ |:---------:|
 |   25   |   77.00   |    |   0    |   32.00   |   -5.5 |   22.10   |   32.3 |   90.14   |
 
 ### My Solution
