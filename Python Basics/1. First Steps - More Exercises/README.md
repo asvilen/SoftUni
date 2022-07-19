@@ -46,6 +46,7 @@ Write a program that reads from the console the side and height of a triangle an
 | 4.56789|  `32.74`  |
 |        |           |
 
+### My Solution
 ```python
 a = float(input())
 h = float(input())
