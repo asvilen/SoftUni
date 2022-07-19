@@ -1,2 +1,2 @@
-#Python Basics
-This folder contains problems that I solved in my Python Basics course.
+# Python Basics
+This folder contains problems that I solved during the Python Basics course.
