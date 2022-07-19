@@ -13,3 +13,14 @@ The answer must be formatted to the second digit after the decimal point.
 |   8    |           |
 |   13   | 73.50     |
 |   7    |           |
+
+### My Solution
+```python
+b1 = float(input())
+b2 = float(input())
+h = float(input())
+
+area = (b1 + b2) * h / 2
+
+print(f"{area:.2f}")
+```
