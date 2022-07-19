@@ -164,10 +164,10 @@ Georgi will have guests in the evening and decides to treat them with bonito, sa
 To print a floating point number on the console: how much money George will need to pay his bill. The number must be formatted to the second decimal place (1.2457 -> 1.25).
 
 ### Sample Input and Output
-| Input  | Output    |   | Input  | Output    |
-| ------ |:---------:|   | ------ |:---------:|
-|  6.9   |  `42.96`  |   |  5.55  | `113.82`  |
-|  4.20  |           |   |  3.57  |           |
-|  1.5   |           |   |  4.3   |           |
-|  2.5   |           |   |  3.6   |           |
-|   1    |           |   |   7    |           |
+| Input  | Output    |   | Input  | Output    |   | Input  | Output    |
+| ------ |:---------:| - | ------ |:---------:| - | ------ |:---------:|
+|  6.9   |  `42.96`  |   |  5.55  | `113.82`  |   |  7.79  | `115.92`  |
+|  4.20  |           |   |  3.57  |           |   |  5.35  |           |
+|  1.5   |           |   |  4.3   |           |   |  9.3   |           |
+|  2.5   |           |   |  3.6   |           |   |   0    |           |
+|   1    |           |   |   7    |           |   |   0    |           |
