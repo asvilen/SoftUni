@@ -13,7 +13,6 @@ area = (b1 + b2) * h / 2
 print(f"{area:.2f}")
 ```
 ## Sample Input and Output
-
 | Input  | Output    |
 | ------ |:---------:|
 |   8    |           |
