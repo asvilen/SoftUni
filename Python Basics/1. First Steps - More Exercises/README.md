@@ -45,3 +45,12 @@ Write a program that reads from the console the side and height of a triangle an
 | 1.23456|           |
 | 4.56789|  `32.74`  |
 |        |           |
+
+```python
+a = float(input())
+h = float(input())
+
+area = a * h / 2
+
+print(f"{area:.2f}")
+```
