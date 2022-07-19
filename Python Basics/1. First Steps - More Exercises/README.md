@@ -172,7 +172,7 @@ To print a floating point number on the console: how much money George will need
 |  2.5   |           |   |  3.6   |           |   |   0    |           |
 |   1    |           |   |   7    |           |   |   0    |           |
 
-## My Solution
+### My Solution
 ```python
 
 macherel_price = float(input())
