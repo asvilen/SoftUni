@@ -26,3 +26,22 @@ area = (b1 + b2) * h / 2
 
 print(f"{area:.2f}")
 ```
+## 2. Face of a triangle
+### Problem
+Write a program that reads from the console the side and height of a triangle and calculates its face. Use the triangle face formula: area = a * h / 2. Format the output to the second decimal place.
+
+### Sample Input and Output
+| Input  | Output    |
+| ------ |:---------:|
+|   20   |           |
+|   30   |  300.00   |
+| ------ |:---------:|
+|   15   |           |
+|   35   |  262.50   |
+| ------ |:---------:|
+|  7.75  |           |
+|  8.45  |  32.74    |
+| ------ |:---------:|
+| 1.23456|           |
+| 4.56789|  32.74    |
+| ------ |:---------:|
