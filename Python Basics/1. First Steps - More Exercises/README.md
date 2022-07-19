@@ -112,3 +112,37 @@ total_in_eur = (vegetables_income + fruits_income) / 1.94
 
 print(f"{total_in_eur:.2f}")
 ```
+## 5. Study hall
+### Problem
+A classroom has a rectangular dimension w by h meters, without columns in its interior. The hall is divided into two parts - left and right, with a corridor approximately in the middle. There are rows of desks on the left and on the right. At the back of the hall is a large entrance door. In the front part of the hall there is a chair with a podium for the teacher. One workplace occupies 70 by 120 cm (table measuring 70 by 40 cm + space for a chair and passage measuring 70 by 80 cm). The corridor is at least 100 cm wide. It is estimated that exactly 1 job is lost because of the entrance door (which has a 160 cm opening) and because of the chair (which has a size of 160 by 120 cm) exactly 2 jobs are lost. Write a program that enters the dimensions of a classroom and calculates the number of workstations in it for the layout described (see figure).
+
+![alt text](https://csharp-book.softuni.bg/assets/chapter-2-2-images/01.Training-lab-01.png "Study hall")
+
+##### Console Input
+2 numbers are read from the console, one per line: w (length in meters) and h (width in meters).
+Constraints: 3 ≤ h ≤ w ≤ 100.
+##### Expected Output
+To print a single integer on the console: the number of seats in the classroom.
+
+### Sample Input and Output
+| Input  | Output    |
+| ------ |:---------:|
+|   15   |   `129`   |
+|   8.9  |           |
+|        |           |
+|   8.4  |   `39`    |
+|   5.2  |           |
+
+### My Solution
+```python
+w = float(input())
+h = float(input())
+w *= 100
+h = h * 100 - 100
+
+columns_of_places = h // 70
+rows_of_places = w // 120
+total_places = columns_of_places * rows_of_places - 3
+
+print(int(total_places))
+```
