@@ -13,7 +13,7 @@ The answer must be formatted to the second digit after the decimal point.
 | Input  | Output    |
 | ------ |:---------:|
 |   8    |           |
-|   13   | 73.50     |
+|   13   | `73.50`   |
 |   7    |           |
 
 ### My Solution
@@ -34,14 +34,14 @@ Write a program that reads from the console the side and height of a triangle an
 | Input  | Output    |
 | ------ |:---------:|
 |   20   |           |
-|   30   |  300.00   |
+|   30   |  `300.00` |
 |--------|-----------|
 |   15   |           |
-|   35   |  262.50   |
+|   35   |  `262.50` |
 | ------ |:---------:|
 |  7.75  |           |
-|  8.45  |  32.74    |
+|  8.45  |  `32.74`  |
 | ------ |:---------:|
 | 1.23456|           |
-| 4.56789|  32.74    |
+| 4.56789|  `32.74`  |
 | ------ |:---------:|
