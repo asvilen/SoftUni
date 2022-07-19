@@ -61,9 +61,9 @@ print(f"{area:.2f}")
 Write a program that reads degrees Celsius (°C) and converts them to degrees Fahrenheit (°F). Search the Internet for a suitable formula to do the calculations. Format the output to the second decimal place.
 
 ### Sample Input and Output
-| Input  | Output    | | Input  | Output    | | Input  | Output    | | Input  | Output    | 
-| ------ |:---------:| | ------ |:---------:| | ------ |:---------:| | ------ |:---------:|
-|   25   |   77.00   | |   0    |   32.00   | |   -5.5 |   22.10   | |   32.3 |   90.14   |
+| Input  | Output    | Input  | Output    | Input  | Output    | Input  | Output    | 
+| ------ |:---------:| ------ |:---------:| ------ |:---------:| ------ |:---------:|
+|   25   |   77.00   |   0    |   32.00   |   -5.5 |   22.10   |   32.3 |   90.14   |
 
 ### My Solution
 ```Python
