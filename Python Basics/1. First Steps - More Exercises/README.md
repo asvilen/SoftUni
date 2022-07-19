@@ -213,4 +213,12 @@ You need to calculate the area of ​​all the sides and the area of ​​the 
 To print to the console two numbers each on a new line:
 * The liters of green paint
 * Liters of red paint
+
 Formatted to the second decimal place.
+
+### Sample Input and Output
+| Input  | Output    |   | Input  | Output    |
+| ------ |:---------:| - | ------ |:---------:|
+|   6    |  `54.44`  |   |  10.25 | `152.93`  |
+|  10    |  `35.16`  |   |  15.45 | `94.82`   |
+|  5.2   |           |   |  8.88  |           |
