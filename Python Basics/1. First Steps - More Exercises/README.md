@@ -118,10 +118,10 @@ A classroom has a rectangular dimension w by h meters, without columns in its in
 
 ![alt text](https://csharp-book.softuni.bg/assets/chapter-2-2-images/01.Training-lab-01.png "Study hall")
 
-##### Console Input
+#### Console Input
 2 numbers are read from the console, one per line: w (length in meters) and h (width in meters).
 Constraints: 3 ≤ h ≤ w ≤ 100.
-##### Expected Output
+#### Expected Output
 To print a single integer on the console: the number of seats in the classroom.
 
 ### Sample Input and Output
@@ -146,3 +146,28 @@ total_places = columns_of_places * rows_of_places - 3
 
 print(int(total_places))
 ```
+
+## 6. Fish market
+### Problem
+Georgi will have guests in the evening and decides to treat them with bonito, saffron and mussels. So he goes to the fish market to buy a few kilos. The prices in BGN of mackerel and sprat are entered from the console. Also the amount of bonito, saffron and mussels in kilograms. How much money will he need to pay his bill if stock market prices are:
+* Bonito – 60% more expensive than mackerel
+* Safrid – 80% more expensive than sprat
+* Mussels – BGN 7.50 per kilogram
+#### Input
+5 numbers are read from the console:
+* First row – mackerel price per kilogram. A real number in the range [0.00…40.00]
+* Second row – sprat price per kilogram. A real number in the range [0.00…30.00]
+* Third row - kilos of bonito. A real number in the range [0.00…50.00]
+* Fourth row - kilograms of saffron. A real number in the range [0.00… 70.00]
+* Fifth row - the kilogram of mussels. An integer in the range [0 ... 100]
+#### Output
+To print a floating point number on the console: how much money George will need to pay his bill. The number must be formatted to the second decimal place (1.2457 -> 1.25).
+
+### Sample Input and Output
+| Input  | Output    |   | Input  | Output    |
+| ------ |:---------:|   | ------ |:---------:|
+|  6.9   |  `42.96`  |   |  5.55  | `113.82`  |
+|  4.20  |           |   |  3.57  |           |
+|  1.5   |           |   |  4.3   |           |
+|  2.5   |           |   |  3.6   |           |
+|   1    |           |   |   7    |           |
