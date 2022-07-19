@@ -35,7 +35,7 @@ Write a program that reads from the console the side and height of a triangle an
 | ------ |:---------:|
 |   20   |           |
 |   30   |  300.00   |
-| ------ |:---------:|
+|--------|-----------|
 |   15   |           |
 |   35   |  262.50   |
 | ------ |:---------:|
