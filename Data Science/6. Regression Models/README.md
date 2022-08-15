@@ -1,9 +1,9 @@
 
 ### In this homework we are building a Logistic Regression Model from scratch
-#### Sigmoid Funtion
-#### Logistic Fuction
-#### Error Function
-#### Cost Function
-#### Gradient Ascent Function
-#### Model Training using the Gradient Ascent Function
-#### Accuracy calculation
+#### 1. Sigmoid Funtion
+#### 2. Logistic Fuction
+#### 3. Error Function
+#### 4. Cost Function
+#### 5. Gradient Ascent Function
+#### 6. Model Training using the Gradient Ascent Function
+#### 7. Accuracy calculation
