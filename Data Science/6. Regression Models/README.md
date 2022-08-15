@@ -1,2 +1,2 @@
 
-# Building a Logistic Regression Model from scratch
+## Building a Logistic Regression Model from scratch
