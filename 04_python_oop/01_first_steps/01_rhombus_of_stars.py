@@ -1,23 +1,21 @@
-def print_row(n, row):
-    print(" " * (n - row), end="")
-    print("* " * row)
+def print_row(n):
+    print("* " * n)
 
 
-def make_triangle(n):
+def print_top_half(n):
     for row in range(1, n + 1):
-        print_row(n, row)
+        print_row(row)
 
 
-def make_reversed_triangle(n):
+def print_bottom_half(n):
     for row in range(n - 1, 0, -1):
-        print_row(n, row)
+        print_row(row)
 
 
-def make_rhombus(n):
-    make_triangle(n)
-    make_reversed_triangle(n)
+def print_triangle(n):
+    print_top_half(n)
+    print_bottom_half(n)
 
 
-n = int(input())
-
-make_rhombus(n)
+triangle_height = 5
+print_triangle(triangle_height)
