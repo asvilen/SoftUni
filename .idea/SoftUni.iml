@@ -2,7 +2,8 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/04_python_oop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_python_oop/09_testing/exercises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_python_oop/09_testing/exercises/02_vehicle" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
