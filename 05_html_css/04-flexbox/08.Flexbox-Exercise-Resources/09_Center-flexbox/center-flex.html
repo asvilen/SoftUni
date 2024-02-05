@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center Flexbox</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background-color: rgb(238, 238, 238);
+    }
+    .card {
+      padding: 1em;
+      flex: 0 1 28%;
+
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 0 1em rgb(0, 0, 0, 0.5);
+    }
+  </style>
+  <body>
+    <div class="card">
+      <h3>Card Title</h3>
+      <p>
+        Some kind of decription here that explains this strange behaviour of the
+        system
+      </p>
+    </div>
+  </body>
+</html>
