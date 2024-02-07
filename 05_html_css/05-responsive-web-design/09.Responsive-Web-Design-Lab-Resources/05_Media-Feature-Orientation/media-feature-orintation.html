@@ -7,6 +7,19 @@
     <title>Media Feature: Orientation</title>
     <link rel="stylesheet" href="./responsive.css" />
 </head>
+<style>
+    @media (orientation: landscape) {
+    body {
+        flex-direction: row;
+    }
+    }
+
+    @media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
+    }
+</style>
 
 <body>
     <div>Box 1</div>
