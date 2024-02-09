@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: lightgray;
+        padding: 2em;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 0 1em ;
+    }
+    table,
+    table th,
+    table td {
+        border: 1px solid #ccc;
+    }
+    table th,
+    table td {
+        padding: 0.5em 1em;
+    }
+
+    thead {
+        background-color: rgb(78, 78, 78);
+        color: whitesmoke;
+    }
+    tr:nth-of-type(2n) {
+        background-color: whitesmoke;
+    }
+
+    @media (max-width: 800px) {
+        table, tbody, tr, td, th {
+            display: block;
+        }
+        thead {
+            display: none;
+        }
+        tbody tr {
+            border: 1px solid #000;
+        }
+        tbody td {
+            display: flex;
+        }
+        tbody td:before {
+            display: inline-block;
+            content: attr(data-title);
+            font-weight: bold;
+            padding-right: 1em;
+            flex: 0 0 80px;
+            
+        }
+    }
+    
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Job Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-title="First Name">James</td>
+                <td data-title="Last Name">Matman</td>
+                <td data-title="Job Title">Chief Sandwitch Eater</td>
+            </tr>
+            <tr>
+                <td data-title="First Name">Jon</td>
+                <td data-title="Last Name">Doe</td>
+                <td data-title="Job Title">Chief Executive Eater</td>
+            </tr>
+            <tr>
+                <td data-title="First Name">Jon</td>
+                <td data-title="Last Name">Doe</td>
+                <td data-title="Job Title">Chief Executive Eater</td>
+            </tr>
+            <tr>
+                <td data-title="First Name">Jon</td>
+                <td data-title="Last Name">Doe</td>
+                <td data-title="Job Title">Chief Executive Eater</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
