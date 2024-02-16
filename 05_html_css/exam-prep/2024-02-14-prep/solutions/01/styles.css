@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    margin: 2em;
+}
+
+.card {
+    display: flex;
+    padding: 2.16em;
+    max-width: 1000px;
+
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: #1881B6;
+}
+
+.media {
+    align-self: center;
+    flex: 1 1 100em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    padding: 1em;
+}
+
+.text h3 {
+    text-transform: uppercase;
+}
+
+.text h1 {
+    margin: 0.5em 0;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.8em;
+}
+
+.text p {
+    line-height: 2em;
+    text-indent: 3em;
+    font-size: 1.1em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 1.5em;
+}
+
+.button {
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button.contact {
+    background-color: #B6416D;
+    color: #fff;
+}
+
+.button.more {
+    color: black;
+}
