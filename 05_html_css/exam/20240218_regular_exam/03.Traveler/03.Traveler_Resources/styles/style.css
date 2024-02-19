@@ -1,0 +1,66 @@
+
+/* Page 1 Home */
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.4)), url('../images/poster.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home .top ul li {
+    list-style: none;
+}
+
+.home > * {
+    color: white;
+}
+
+.home .top ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Page 1 - Testimonial */
+.testimonial {
+    background-color: #F8F0E9;
+}
+
+/* Page 1 - Support */
+.support {
+    background-color: #E14747;
+    color: white;
+}
+
+/* Page 2 - Article */
+.container-article {
+    background-color: #F8F0E9;
+}
+.article .button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Page 2 - Search */
+.container-search {
+    background-color: #E14747;
+    color: #FEFFFF;
+}
+.search .button {
+    background-color: #FAD87A;
+    color: black;
+    text-decoration: none;
+}
+
+/* Page 2 - Footer */
+.container-footer {
+    background-color: #352B2A;
+}
+.footer .msg {
+    color: #FFFFFF;
+}
+.footer .rights {
+    color: #766856;
+}

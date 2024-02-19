@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+:root {
+    --karla-font: 18px 'Karla', sans-serif;
+    --cormorant-title: 90px 'Cormorant Infant', sans-serif; 
+    --cormorant-text: 16px 'Cormorant Infant', sans-serif; 
+}
+
+.home .top nav ul li a {
+    font: var(--karla-font);
+}
+
+.home .main h1 {
+    font: var(--cormorant-title);
+    font-weight: bold;
+}
+.home .main p {
+    font: var(--karla-font);
+}
+
+.testimonial .container .title {
+    font: var(--karla-font);
+}
+.testimonial .container .comment {
+    font: var(--cormorant-text);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4em;
+}
+
+.support .container > * {
+    font: var(--karla-font);
+}
+.support .title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Page 2 */
+.article .title {
+    font: var(--cormorant-title);
+    font-size: 3.8em;
+    font-weight: bold;
+    text-align: center;
+}
+.article .desc {
+    font: var(--karla-font);
+}
+.article .button {
+    font: var(--karla-font);
+    font-size: 0.9em;
+}
+
+.search .title {
+    font: var(--cormorant-title);
+    font-size: 3.8em;
+    font-weight: bold;
+    text-align: center;
+}
+.search .desc {
+    font: var(--karla-font);
+}
+.search .button {
+    font: var(--karla-font);
+    font-size: 0.8em;
+}
+
+.footer .msg {
+    font: var(--karla-font);
+}
+.footer .rights {
+    font: var(--karla-font);
+    font-size: 1em;
+}
