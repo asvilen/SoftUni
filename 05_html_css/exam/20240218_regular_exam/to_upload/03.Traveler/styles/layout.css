@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* Page 1 */
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home,
+.testimonial,
+.support {
+    width: 100%;
+}
+.home {
+    height: 90vh;
+}
+.testimonial {
+    height: auto;
+}
+.support {
+    height: auto;
+}
+
+/* Page 1 Home */
+.home .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+
+}
+.home .top img {
+    width: 6em;
+    height: auto;
+}
+.home .top ul {
+    display: flex;
+    gap: 3em;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20em;
+}
+.main p {
+    margin-top: 10em;
+    width: 30%;
+    text-align: center;
+}
+
+/* Page 1 Testimonial */
+.testimonial .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.testimonial .container .comment {
+    padding: 1em 0;
+}
+
+/* Page 1 Support */
+.support .container {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em 0;
+}
+.support .container .title {
+    padding-top: 1em;
+}
+.support .container .desc {
+    padding: 1em 0;
+}
+
+/* Page 2 - Article*/
+.page-2 .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+.page-2 .article .title {
+    padding: 1.5em 0;
+}
+
+.page-2 img {
+    width: 100%;
+    height: auto;
+}
+.page-2 .article .button {
+    padding: 0.6em 1.2em;
+
+}
+.page-2 .article .more {
+    margin: 5em 0;
+    align-self: self-start;
+}
+
+/* Page 2 - Search*/
+.page-2 .search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.page-2 .search .title {
+    margin: 1.2em;
+}
+.page-2 .search .desc {
+    width: 45%;
+    text-align: center;
+    padding-bottom: 3em;
+}
+.page-2 .search .button {
+    margin-bottom: 4em;
+    padding: 1em 2em;
+    border-radius: 30px;
+}
+
+/* Page 2 - Footer */
+.container-footer {
+    padding: 3em 7em;
+}
+.footer img {
+    width: 6em;
+    height: auto;
+    margin-bottom: 1em;
+}
+.footer .msg {
+    margin: 1em 0;
+    width: 30%;
+}
