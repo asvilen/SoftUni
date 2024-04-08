@@ -3,25 +3,24 @@ function create(words) {
    function createDiv(word) {
       const div = document.createElement('div');
       const paragraph = document.createElement('p');
-      paragraph.append(word)
+      paragraph.textContent = word
       paragraph.style.display = 'none'
       div.appendChild(paragraph)
       return div
    }
 
-   const divElement = document.getElementById('content')
+   const content = document.getElementById('content')
    for (const word of words) {
-      divElement.appendChild(createDiv(word))
+      content.appendChild(createDiv(word))
    }
 
-   const pElement =  document.querySelectorAll('#content div p')
-   console.log(pElement);
-   pElement.forEach(function(item) {
-      item.addEventListener("click", function () {
-         // item.style.display = 'block';
-         console.log('You clicked the div');
+   const divElement =  document.querySelectorAll('#content div')
+   const divArray = Array.from(divElement)
+   for (const el of divArray) {
+      console.log(el)
+      el.addEventListener('click', () => {
+         const pElement = el.querySelector("p");
+         pElement.style.display = 'inline'
       })
-   })
-
-   return divElement
+   }
 }
