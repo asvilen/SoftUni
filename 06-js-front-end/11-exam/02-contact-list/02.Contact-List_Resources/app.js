@@ -17,20 +17,17 @@ function solve() {
       const editButtonElement = document.createElement('button');
       const saveButtonElement = document.createElement('button');
       editButtonElement.classList.add('edit-btn');
-      editButtonElement.setAttribute("id", inputData.name);
       saveButtonElement.classList.add('save-btn');
-      saveButtonElement.setAttribute("id", inputData.name);
       buttonsDivElement.appendChild(editButtonElement);
       buttonsDivElement.appendChild(saveButtonElement);
       // Article
       const articleContainerElement = document.createElement('article');
-      articleContainerElement.setAttribute("id", inputData.name);
       const namePElement = document.createElement('p');
       const phonePElement = document.createElement('p');
       const categoryPElement = document.createElement('p');
-      namePElement.textContent = `name: ${inputData.name}`;
-      phonePElement.textContent = `phone: ${inputData.phone}`;
-      categoryPElement.textContent = `category: ${inputData.category}`;
+      namePElement.textContent = `name:${inputData.name}`;
+      phonePElement.textContent = `phone:${inputData.phone}`;
+      categoryPElement.textContent = `category:${inputData.category}`;
       articleContainerElement.appendChild(namePElement);
       articleContainerElement.appendChild(phonePElement);
       articleContainerElement.appendChild(categoryPElement);
@@ -44,12 +41,17 @@ function solve() {
 
       editButtonElement.addEventListener('click', () => {
         // Get values by id
-        const contactName = editButtonElement.id
-        const articleElement = document.getElementById(contactName)
+        console.log("Editing contact")
+        const articleElement = document.querySelector("ul article");
         const paragraphs = articleElement.children;
-        const name = paragraphs[0].textContent.split(": ")[1];
-        const phone = paragraphs[1].textContent.split(": ")[1];
-        const category = paragraphs[2].textContent.split(": ")[1];
+        console.log(paragraphs);
+        console.log(paragraphs[0]);
+        console.log(paragraphs[0].textContent);
+
+        const name = paragraphs[0].textContent.split(":")[1];
+        const phone = paragraphs[1].textContent.split(":")[1];
+        const category = paragraphs[2].textContent.split(":")[1];
+        
         // Populate Input fields
         inputNameElement.value = name;
         inputPhoneElement.value = phone;
@@ -60,38 +62,35 @@ function solve() {
 
       saveButtonElement.addEventListener('click', () => {
         // Append to contact-list
-        // Get values by id
-        const contactName = saveButtonElement.id
-        const articleElement = document.getElementById(contactName)
+        // 1. Get values
+        const articleElement = document.querySelector("ul article");
         const paragraphs = articleElement.children;
-        const name = paragraphs[0].textContent.split(": ")[1];
-        const phone = paragraphs[1].textContent.split(": ")[1];
-        const category = paragraphs[2].textContent.split(": ")[1];
+        const name = paragraphs[0].textContent.split(":")[1];
+        const phone = paragraphs[1].textContent.split(":")[1];
+        const category = paragraphs[2].textContent.split(":")[1];
         const saveListItemElement = document.createElement('li');
-        // Buttons
+        // 2. Create Button
         const deleteButtonElement = document.createElement('button');
         deleteButtonElement.classList.add('del-btn');
-        deleteButtonElement.setAttribute("id", name);
-        // Article
+        // 3.Create Article
         const articleContainerElement = document.createElement('article');
-        articleContainerElement.setAttribute("id", name);
         const namePElement = document.createElement('p');
         const phonePElement = document.createElement('p');
         const categoryPElement = document.createElement('p');
-        namePElement.textContent = `name: ${name}`;
-        phonePElement.textContent = `phone: ${phone}`;
-        categoryPElement.textContent = `category: ${category}`;
+        namePElement.textContent = `name:${name}`;
+        phonePElement.textContent = `phone:${phone}`;
+        categoryPElement.textContent = `category:${category}`;
         articleContainerElement.appendChild(namePElement);
         articleContainerElement.appendChild(phonePElement);
         articleContainerElement.appendChild(categoryPElement);
-        // Append to List Item
+        // 4. Append to List Item
         saveListItemElement.appendChild(articleContainerElement);
         saveListItemElement.appendChild(deleteButtonElement);
-        // Append to Unordered List
+        // 5. Append to Unordered List
         contactListElement.appendChild(saveListItemElement);
-
         // Remove from check-list
         listItemElement.remove()
+
 
         deleteButtonElement.addEventListener('click', () => {
           // Delete the element 
@@ -101,9 +100,6 @@ function solve() {
     })
 
     function getInputs() {
-      if (!inputNameElement.value || !inputPhoneElement.value || !inputSelectElement.value) {
-        return
-      }
       return {
         name: inputNameElement.value,
         phone: inputPhoneElement.value,
