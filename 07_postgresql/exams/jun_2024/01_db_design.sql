@@ -90,4 +90,3 @@ CREATE TABLE IF NOT EXISTS likes (
 		ON DELETE CASCADE
 );
 
--- DROP TABLE photos, comments, accounts_photos, photos, accounts, addresses
